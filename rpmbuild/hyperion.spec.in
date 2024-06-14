@@ -78,6 +78,7 @@ It supports many LED devices and video grabbers.
 cmake -G Ninja \
   -B build \
   -DUSE_SYSTEM_PROTO_LIBS=ON \
+  -DHYPERION_LIGHT=ON \
   -DUSE_SYSTEM_FLATBUFFERS_LIBS=ON \
   -DUSE_SYSTEM_MBEDTLS_LIBS=ON \
   -DENABLE_DEPLOY_DEPENDENCIES=OFF \
